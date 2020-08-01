@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Merriwater&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
+
+
+/*footer*/
+
+.title{
+  font-size: 28px;
+  font-family: 'Cinzel', sans-serif;
+  padding-bottom: 20px;
+}
+
+.animate-border {
+  position: relative;
+  display: block;
+  width: 150px;
+  height: 3px;
+  background: #aeaeae;
+
+}
+
+.dk-footer {
+  padding: 50px 0 0 0;
+  background-color:#744253;
+  position: relative;
+  z-index: 2;
+}
+.dk-footer-box-info {
+
+  margin-bottom: 30px;
+  padding-right: 20px;
+}
+
+
+.dk-footer-box-info .ophour-icon i{
+  font-size: 14px;
+  color: #D7BEA8;
+  /*color: #C6B3AE;*/
+
+
+}
+
+.dk-footer-box-info .ophour-text{
+  font-size: 16px;
+  top: -25px;
+  position: relative;
+  margin-left: 30px
+
+}
+
+.footer-widget .contact-info{
+  padding-bottom: 30px;
+
+}
+
+.footer-widget p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  padding-bottom: 10px;
+/*  line-height: 28px;*/
+
+}
+.footer-widget span{
+  font-size: 14px;
+  color: #D7BEA8;
+
+}
+
+.footer-widget .section-heading {
+  margin-bottom: 35px;
+}
+
+.footer-widget h3 {
+  font-size: 24px;
+  color: #D7BEA8;
+    position: relative;
+  margin-bottom: 15px;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.footer-widget ul {
+  width: 50%;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0 10px 20px 0px;
+}
+
+.footer-widget li {
+  margin-bottom: 18px;
+}
+
+
+
+.footer-widget a {
+  text-decoration: none;
+  color: #fff;
+  /*#878787*/
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.footer-widget a:hover {
+  color: #E6CB8F;
+}
+
+.footer-widget:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.back-to-top {
+  position: relative;
+  z-index: 2;
+}
+
+.back-to-top .btn-dark {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding: 0;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #b49286;
+  border-color: #a28089;
+  display: none;
+  z-index: 999;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.back-to-top .btn-dark:hover {
+  cursor: pointer;
+  background: #E6CB8F;
+  border-color: #E6CB8F;
+}
