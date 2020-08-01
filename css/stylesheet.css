@@ -1,11 +1,127 @@
-@import url('https://fonts.googleapis.com/css?family=Merriwater&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
 
+body a {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    font-family: 'Lato', sans-serif;
+}
+/*headertop*/
+/* Top Bar
+--------------------------------------------------------------------------------------------------------------- */
+.header-top {
+  padding: 0.5em 0;
+  background: #312a25;
 
+}
+.headertop-text{
+  font-size: .8rem;
+}
+ul.headertop-text{
+  list-style: none;
+}
+
+
+ul.headertop-text li, ul.headertop-text li p, ul.headertop-text li a {
+  letter-spacing: 1px;
+  color: #eee;
+}
+
+ul.headertop-text li span.fa {
+  color: #fff;
+  font-size: 16px;
+}
+#topbar {
+  padding-top: 10px;
+  font-size: .8rem;
+  text-transform: uppercase;
+}
+
+#topbar ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-right: 20px;
+  border-right: 1px solid;
+}
+
+#topbar ul li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+
+#topbar i {
+  line-height: normal;
+}
+
+/* Header
+--------------------------------------------------------------------------------------------------------------- */
+#header {
+  padding: 50px 0;
+}
+
+#header #logo * {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+#header #logo h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#header #logo h1 span {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+#header ul {
+
+}
+
+#header ul li {}
+
+#header ul li div {
+  position: relative;
+  min-height: 60px;
+  padding: 0 0 0 80px;
+}
+
+#header ul li div i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 58px;
+  font-size: 22px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+#header ul li div span {
+  display: block;
+  padding: 8px 0 0 0;
+}
+
+#header div:last-child {
+  margin-bottom: 0;
+}
+
+/* Used when elements stack in small viewports */
+
+
+
+
+/*headertop*/
 
 /*footer*/
-
-.title{
+.title {
   font-size: 28px;
   font-family: 'Cinzel', sans-serif;
   padding-bottom: 20px;
@@ -17,54 +133,47 @@
   width: 150px;
   height: 3px;
   background: #aeaeae;
-
 }
 
 .dk-footer {
   padding: 50px 0 0 0;
-  background-color:#744253;
+  background-color: #744253;
   position: relative;
   z-index: 2;
 }
-.dk-footer-box-info {
 
+.dk-footer-box-info {
   margin-bottom: 30px;
   padding-right: 20px;
 }
 
-
-.dk-footer-box-info .ophour-icon i{
+.dk-footer-box-info .ophour-icon i {
   font-size: 14px;
   color: #D7BEA8;
   /*color: #C6B3AE;*/
-
-
 }
 
-.dk-footer-box-info .ophour-text{
+.dk-footer-box-info .ophour-text {
   font-size: 16px;
   top: -25px;
   position: relative;
   margin-left: 30px
-
 }
 
-.footer-widget .contact-info{
+.footer-widget .contact-info {
   padding-bottom: 30px;
-
 }
 
-.footer-widget p{
+.footer-widget p {
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
   padding-bottom: 10px;
-/*  line-height: 28px;*/
-
+  /*  line-height: 28px;*/
 }
-.footer-widget span{
+
+.footer-widget span {
   font-size: 14px;
   color: #D7BEA8;
-
 }
 
 .footer-widget .section-heading {
@@ -74,7 +183,7 @@
 .footer-widget h3 {
   font-size: 24px;
   color: #D7BEA8;
-    position: relative;
+  position: relative;
   margin-bottom: 15px;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
@@ -92,8 +201,6 @@
 .footer-widget li {
   margin-bottom: 18px;
 }
-
-
 
 .footer-widget a {
   text-decoration: none;
@@ -141,3 +248,5 @@
   background: #E6CB8F;
   border-color: #E6CB8F;
 }
+
+/*-- responsive design --*/
