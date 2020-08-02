@@ -1,29 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
 
-body a {
-    text-decoration: none;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    font-family: 'Lato', sans-serif;
+/*body a {
+  text-decoration: none;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  font-family: 'Lato', sans-serif;
+}*/
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
+
 /*headertop*/
 /* Top Bar
 --------------------------------------------------------------------------------------------------------------- */
 .header-top {
   padding: 0.5em 0;
-  background: #312a25;
-
+  background: #b49286;
 }
-.headertop-text{
+
+.headertop-text {
   font-size: .8rem;
 }
-ul.headertop-text{
+
+ul.headertop-text {
   list-style: none;
 }
-
 
 ul.headertop-text li, ul.headertop-text li p, ul.headertop-text li a {
   letter-spacing: 1px;
@@ -31,11 +37,11 @@ ul.headertop-text li, ul.headertop-text li p, ul.headertop-text li a {
 }
 
 ul.headertop-text li span.fa {
-  color: #fff;
+  color: #E6CB8F;
   font-size: 16px;
 }
+
 #topbar {
-  padding-top: 10px;
   font-size: .8rem;
   text-transform: uppercase;
 }
@@ -57,14 +63,35 @@ ul.headertop-text li span.fa {
   line-height: normal;
 }
 
-/* Header
---------------------------------------------------------------------------------------------------------------- */
-#header {
+.lang-text {
+  font-size: .8rem;
+  letter-spacing: 1px;
+  color: #eee;
+  font-family: 'Lato', sans-serif;
+  display: block;
+  width: 50px;
+  height: 20px;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #744253;
+  border-color: #744253;
+}
+
+.lang-text:hover {
+  color: #ffffff;
+  background: #E6CB8F;
+  border-color: #FFCC00;
+}
+
+/*--headertop*/
+* Header --------------------------------------------------------------------------------------------------------------- */ #header {
   padding: 50px 0;
 }
 
 #header #logo * {
-  margin: 0;
+  margin: 5px;
   padding: 0;
   line-height: 1;
 }
@@ -77,48 +104,17 @@ ul.headertop-text li span.fa {
 #header #logo h1 span {
   font-size: 4rem;
   font-weight: 400;
+  font-family: 'Cinzel', sans-serif;
+  padding-bottom: 20px;
 }
 
-#header ul {
-
+.logoname {
+  color: #F7A804;
 }
 
-#header ul li {}
-
-#header ul li div {
-  position: relative;
-  min-height: 60px;
-  padding: 0 0 0 80px;
+.logoname span {
+  color: #0E74A5;
 }
-
-#header ul li div i {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60px;
-  height: 60px;
-  line-height: 58px;
-  font-size: 22px;
-  text-align: center;
-  border: 1px solid;
-  border-radius: 50%;
-}
-
-#header ul li div span {
-  display: block;
-  padding: 8px 0 0 0;
-}
-
-#header div:last-child {
-  margin-bottom: 0;
-}
-
-/* Used when elements stack in small viewports */
-
-
-
-
-/*headertop*/
 
 /*footer*/
 .title {
@@ -182,6 +178,8 @@ ul.headertop-text li span.fa {
 
 .footer-widget h3 {
   font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  text-transform: capitalize;
   color: #D7BEA8;
   position: relative;
   margin-bottom: 15px;
