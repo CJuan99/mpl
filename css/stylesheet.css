@@ -81,12 +81,12 @@ ul.headertop-text li span.fa {
 
 .lang-text:hover {
   color: #ffffff;
-  background: #E6CB8F;
-  border-color: #FFCC00;
+  background: #D7BEA8;
+  border-color: #E6CB8F;
 }
 
 /*--headertop*/
-* Header --------------------------------------------------------------------------------------------------------------- */ #header {
+#header {
   padding: 50px 0;
 }
 
@@ -97,30 +97,48 @@ ul.headertop-text li span.fa {
 }
 
 #header #logo h1 {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 700;
+  font-family: 'KaiTi';
+  padding: 20px 0px 0px 0px;
+
 }
 
-#header #logo h1 span {
+/*#header #logo h1 span {
   font-size: 4rem;
   font-weight: 400;
   font-family: 'Cinzel', sans-serif;
   padding-bottom: 20px;
+}*/
+
+.logoname-ch{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'KaiTi';
+  font-weight: 700;
+  color: #E6CB8F;
 }
 
 .logoname {
-  color: #F7A804;
+  font-size: 40px;
+  font-weight: 700;
+    font-family: 'Cinzel', sans-serif;
+    color: #E6CB8F;
+}
+.logoname a{
+  text-decoration: none;
+  color: #E6CB8F;
 }
 
-.logoname span {
-  color: #0E74A5;
-}
+
 
 /*footer*/
 .title {
   font-size: 28px;
   font-family: 'Cinzel', sans-serif;
   padding-bottom: 20px;
+  font-weight: 700;
+  color: #E6CB8F;
 }
 
 .animate-border {
