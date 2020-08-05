@@ -57,10 +57,10 @@
   </header>
   <!-- /header -->
   <!--navigation-->
-  <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark pt-2">
-    <!--  <a class="navbar-brand" href="#">Navbar</a>-->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark ">
+    <a class="title d-none " href="#">Malaysian Public Library, Research And Development Centre</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <i class="icon fas fa-bars fa-1x text-warning"></i>
     </button>
     <div class="collapse navbar-collapse mx-2" id="navbarNavDropdown">
       <ul class="navbar-nav mx-4">
@@ -85,7 +85,11 @@
             <a class="dropdown-item" href="#">Awards/Competitions</a>
             <a class="dropdown-item" href="#">Reading activities</a>
             <a class="dropdown-item" href="#">Talks/Workshops</a>
+
           </div>
+        </li>
+        <li class="nav-item px-3 ">
+          <a class="nav-link" href="#">Research</a>
         </li>
         <li class="nav-item dropdown px-3 ">
           <a class="nav-link dropdown-toggle" href="#" id="navbarResourceLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -93,9 +97,11 @@
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Online databases</a>
             <a class="dropdown-item" href="#">Online journals</a>
+              <a class="dropdown-item" href="#">Open access resources</a>
             <a class="dropdown-item" href="#">E-books </a>
             <a class="dropdown-item" href="#">Multimedia resources</a>
             <a class="dropdown-item" href="#">Old e-newspapers</a>
+
           </div>
         </li>
         <li class="nav-item px-3 ">
@@ -113,12 +119,12 @@
 
         </form>
       </ul>
-      <form action="#" method="#" class="search-navbar">
-        <input type="search" name="Search" placeholder="Search " class="px-2 py-2" required >
+    <!--  <form action="#" method="#" class="search-navbar">
+        <input type="search" name="Search" placeholder="Search " class="" required>
         <button type="submit" class="btn btn-default search text-white" aria-label="Left Align">
           <i class="fa fa-search" aria-hidden="true"></i>
         </button>
-      </form>
+      </form>-->
     </div>
   </nav>
 
@@ -169,12 +175,173 @@
     </a>
   </div>
   <!--slider-->
-  <div id="main" class="container-fluid">
-    <div class="text-center">
-      <h1>Fancy Fixed Bootstrap Navbar</h1>
-      <p class="lead">Check this out. Keep scrolling</p><p>Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-    </div> <!-- /.text-center -->
-  </div>
+  <!-- about -->
+  <section class="about py-5">
+    <div class="container py-md-3">
+      <h2 class=" section-heading text-center pb-3 ">About Us </h2>
+      <div class="row">
+        <div class="col-lg-8">
+          <h4 class="about-heading">We have moved to Wisma HELP, Bukit Damansara</h4>
+          <p class="mt-sm-4 mt-3 pr-3 text-justify">The Malaysian Public Library (MPL) is a library currently located in Kampung Attap, KL. This library will soon be relocating to Wisma HELP, Bukit Damansara where all are welcomed to access the
+            library. MPL was established in 1995 to encourage reading amongst the community.
+            In addition, it also aims to preserve the Chinese culture and heritage.
+            MPL has over 60,000 books, mostly in Chinese which include classical and modern literature.</p>
+          <!--	<div class="row mt-4">
+  					<div class="col-md-3 col-6">
+  						<div class="about-box">
+  							<span class="icon">
+  								<span class="fa fa-birthday-cake"></span>
+  							</span>
+  							<h4>Healthy</h4>
+  						</div>
+  					</div>
+  					<div class="col-md-3 col-6">
+  						<div class="about-box">
+  							<span class="icon">
+  								<span class="fa fa-rocket"></span>
+  							</span>
+  							<h4>Spicy & Hot</h4>
+  						</div>
+  					</div>
+  					<!-- .about-box ends here
+  					<div class="col-md-3 col-6 mt-md-0 mt-4">
+  						<div class="about-box">
+  							<span class="icon">
+  								<span class="fa fa-cutlery"></span>
+  							</span>
+  							<h4>Crunchy</h4>
+  						</div>
+  					</div>
+  					<div class="col-md-3 col-6 mt-md-0 mt-4">
+  						<div class="about-box">
+  							<span class="icon">
+  								<span class="fa fa-coffee"></span>
+  							</span>
+  							<h4>Reciepe</h4>
+  						</div>
+  					</div>
+  				</div>-->
+        </div>
+        <div class="col-lg-4 col-md-8 dental">
+          <img src="img/slide1.jpg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //about -->
+  <!--event-->
+  <section class="events py-5">
+    <div class="container py-md-3">
+      <h2 class=" section-heading text-center pb-3 text-white">Events</h2>
+
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+          <div style="background-image: url(img/slide3.jpg);" class="image-grid-cover shadow">
+            <div  class="image-grid-clickbox ">
+            <a href="#" class="cover-wrapper">Cultural activities</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 image-grid-item ">
+          <div style="background-image: url(img/slide3.jpg);" class="entry-cover image-grid-cover shadow">
+            <div  class="image-grid-clickbox ">
+            <a href="#" class="cover-wrapper">Exhibitions</a>
+          </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+          <div style="background-image: url(img/slide3.jpg);" class="entry-cover image-grid-cover shadow">
+              <div  class="image-grid-clickbox ">
+            <a href="#" class="cover-wrapper">Awards/Competitions</a>
+          </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+          <div style="background-image: url(img/slide3.jpg);" class="entry-cover image-grid-cover shadow">
+            <div  class="image-grid-clickbox ">
+            <a href="#" class="cover-wrapper">Reading activities</a>
+          </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+          <div style="background-image: url(img/slide3.jpg);" class="entry-cover image-grid-cover shadow">
+            <div  class="image-grid-clickbox ">
+            <a href="#" class="cover-wrapper">Talks/Workshops</a>
+          </div>
+          </div>
+        </div>
+    <!--    <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+          <div style="background-image: url(img/slide3.jpg);" class="entry-cover image-grid-cover shadow">
+              <div  class="image-grid-clickbox ">
+            <a href="#" class="cover-wrapper">Cultural festivals</a>
+            </div>
+          </div>
+        </div>-->
+      </div>
+    </div>
+  </section>
+  <!--//event-->
+    <!-- Resources -->
+  <section class="resources py-5">
+    <div class="container ">
+      <h2 class=" section-heading text-center pb-3 ">Resources</h2>
+                 <div class="row my-5">
+                    <div class="col-md-4">
+                       <div class="res-service">
+                         <i class="fas fa-database"></i>
+                          <h3>Online databases</h3>
+                          <p>Lorem ipsum dolor sit amet</p>
+                          <a href="" class="border-btn">Read More</a>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                       <div class="res-service">
+                          <i class="fas fa-newspaper"></i>
+                          <h3>Online journals</h3>
+                          <p>Lorem ipsum dolor sit amet</p>
+                          <a href="" class="border-btn">Read More</a>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                       <div class="res-service">
+                         <i class="fas fa-book-open"></i>
+
+                          <h3>Open access resources</h3>
+                          <p>Lorem ipsum dolor sit amet</p>
+                          <a href="" class="border-btn">Read More</a>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="row my-5 ">
+                    <div class="col-md-4">
+                       <div class="res-service">
+                        <i class="fas fa-book"></i>
+                          <h3>e-books</h3>
+                            <p>Lorem ipsum dolor sit amet</p>
+                          <a href="" class="border-btn">Read More</a>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                       <div class="res-service">
+                            <i class="fas fa-atlas"></i>
+                          <h3>Multimedia resources</h3>
+                          <p>Lorem ipsum dolor sit amet</p>
+                          <a href="" class="border-btn">Read More</a>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                       <div class="res-service">
+                          <i class="far fa-newspaper"></i>
+                          <h3>Old e newspapers</h3>
+                          <p>Lorem ipsum dolor sit amet</p>
+                          <a href="" class="border-btn">Read More</a>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </section>
+     	  <!--/Resources -->
+
 
 
 
@@ -186,7 +353,7 @@
           <div class="dk-footer-box-info">
             <!--<div class="dk-footer-box-info">-->
             <a class=" text-decoration-none text-white" href="index.html">
-              <h2 class="title">Malaysian Public Library, Research And Development Centre</h2>
+              <h2 id="footer-title">Malaysian Public Library, Research And Development Centre</h2>
             </a>
 
             <div class="ophour-icon">
@@ -211,7 +378,7 @@
           <div class="row">
             <div class="col-md-12 col-lg-6">
               <div class="footer-widget ">
-                <div class="section-heading">
+                <div class="footer-heading">
                   <h3>HOME</h3>
                   <span class="animate-border border-black"></span>
                 </div>
@@ -248,7 +415,7 @@
             <!-- End col -->
             <div class="col-md-12 col-lg-6">
               <div class="footer-widget ">
-                <div class="section-heading">
+                <div class="footer-heading">
                   <h3>CONTACT US</h3>
                   <span class="animate-border border-black"></span>
                 </div>
