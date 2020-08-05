@@ -42,22 +42,21 @@
     </div>
   </div>
   <!-- //top header -->
-  <!--HEADER-->
-  <div class="container">
-    <header id="header">
-      <!-- ################################################################################################ -->
-      <div>
-        <a class=" text-decoration-none " href="index.html">
-          <h1 class="logoname-ch text-center">马来西亚民众图书馆及研发中心 </h1>
-        </a>
-        <a href="index.html" class="text-decoration-none">
-          <h1 class="logoname text-center">Malaysian Public Library, Research And Development Centre</h1>
-        </a>
-      </div>
-    </header>
+  <!--header-->
 
-  </div>
-
+  <header id="header">
+    <!-- ################################################################################################ -->
+    <div>
+      <a class=" text-decoration-none " href="index.html">
+        <h1 class="logoname-ch text-center">马来西亚民众图书馆及研发中心 </h1>
+      </a>
+      <a href="index.html" class="text-decoration-none">
+        <h1 class="logoname text-center">Malaysian Public Library, Research And Development Centre</h1>
+      </a>
+    </div>
+  </header>
+  <!-- /header -->
+  <!--navigation-->
   <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark pt-2">
     <!--  <a class="navbar-brand" href="#">Navbar</a>-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,8 +64,12 @@
     </button>
     <div class="collapse navbar-collapse mx-2" id="navbarNavDropdown">
       <ul class="navbar-nav mx-4">
-        <li class="nav-item active px-3 ">
-          <a class="nav-link" href="#">About Us </a><span class="sr-only">(current)</span></a>
+        <li class="nav-item active dropdown  px-3 ">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarAboutLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About<span class="sr-only">(current)</span></a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Introduction</a>
+            <a class="dropdown-item" href="#">Publications </a>
+          </div>
         </li>
         <li class="nav-item px-3 ">
           <a class="nav-link" href="#">Opac</a>
@@ -79,7 +82,7 @@
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Cultural activities</a>
             <a class="dropdown-item" href="#">Exhibitions</a>
-             <a class="dropdown-item" href="#">Awards/Competitions</a>
+            <a class="dropdown-item" href="#">Awards/Competitions</a>
             <a class="dropdown-item" href="#">Reading activities</a>
             <a class="dropdown-item" href="#">Talks/Workshops</a>
           </div>
@@ -87,11 +90,11 @@
         <li class="nav-item dropdown px-3 ">
           <a class="nav-link dropdown-toggle" href="#" id="navbarResourceLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Resources</a>
-            <div class="dropdown-menu">
+          <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Online databases</a>
             <a class="dropdown-item" href="#">Online journals</a>
             <a class="dropdown-item" href="#">E-books </a>
-          <a class="dropdown-item" href="#">Multimedia resources</a>
+            <a class="dropdown-item" href="#">Multimedia resources</a>
             <a class="dropdown-item" href="#">Old e-newspapers</a>
           </div>
         </li>
@@ -108,52 +111,72 @@
           <a class="nav-link" href="#">Sponsorship</a>
         </li>
 
+        </form>
       </ul>
+      <form action="#" method="#" class="search-navbar">
+        <input type="search" name="Search" placeholder="Search " class="px-2 py-2" required >
+        <button type="submit" class="btn btn-default search text-white" aria-label="Left Align">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </form>
     </div>
   </nav>
 
-  <!-- //HEADER -->
-  <div class="w3layouts-banner">
-    <div class="container">
-      <section class="slider">
-        <div class="flexslider">
-          <ul class="slides">
-            <li>
-              <div class="agileits_w3layouts_banner_info">
-                <h3>congue vel urna. Quisque posuere </h3>
-                <p>Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-              </div>
-            </li>
-            <li>
-              <div class="agileits_w3layouts_banner_info">
-                <h3>Mauris ut enim sed tortor auctor</h3>
-                <p>Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-              </div>
-            </li>
-            <li>
-              <div class="agileits_w3layouts_banner_info">
-                <h3>Curabitur diam lorem, ultricies </h3>
-                <p>Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-              </div>
-            </li>
-          </ul>
+  <!-- /navigation -->
+  <!--slider-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/slide1.jpg'); background-size: cover;">
+        <div class="carousel-caption d-md-block">
+          <h3 class="display-4 font-weight-bold text-white ">We move to new place</h3>
+          <p class="lead">New place, New facilities</p>
+          <button type="button" href="#tabs" class="btn btn-lg btn-circle my-4 mr-3">Check Out Now</button>
         </div>
-      </section>
-      <!-- flexSlider --
-    <script defer src="js/jquery.flexslider.js"></script>
-    <script type="text/javascript">
-      $(window).load(function(){
-        $('.flexslider').flexslider({
-        animation: "slide",
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-        });
-      });
-    </script>
-  <!-- //flexSlider -->
+        <small class="text-secondary">https://unsplash.com/photos/18G6v__JsbU</small>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/slide2.jpg'); background-size: cover;">
+        <div class="carousel-caption  d-md-block">
+          <h3 class="display-4 font-weight-bold text-white">Membership Registration</h3>
+          <p class="lead">More benefits, More convenient</p>
+          <button type="button" href="#tabs" class="btn btn-lg btn-circle my-4 mr-3">Check Out Now</button>
+        </div>
+        <small class="text-secondary">https://unsplash.com/photos/i2odtVFrYZ8</small>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('img/slide3.jpg'); background-size: cover;">
+        <div class="carousel-caption  d-md-block">
+          <h3 class="display-4 font-weight-bold text-white">Join Us Now</h3>
+          <p class="lead">Be part of our group</p>
+          <button type="button" href="#tabs" class="btn btn-lg btn-circle my-4 mr-3">Check Out Now</button>
+        </div>
+        <small class="text-secondary">https://unsplash.com/photos/rE9vgD_TXgM</small>
+      </div>
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
+  <!--slider-->
+  <div id="main" class="container-fluid">
+    <div class="text-center">
+      <h1>Fancy Fixed Bootstrap Navbar</h1>
+      <p class="lead">Check this out. Keep scrolling</p><p>Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    </div> <!-- /.text-center -->
+  </div>
+
+
 
   <!--footer-->
   <footer id="dk-footer" class="dk-footer">
