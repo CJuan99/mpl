@@ -28,6 +28,11 @@ a, a:focus, a:hover {
   text-decoration: none;
 }
 
+p{
+  font-size: 16px;
+  font-family: "Lato",sans-serif;
+}
+
 /*
 .row {
   display: -webkit-box;
@@ -641,6 +646,21 @@ a.border-btn:hover:before {
 }
 
 /*-- //breadcrumbs --*/
+
+/*Career Page*/
+.career-page-banner {
+    background: url(../img/careers-head.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.page-layer {
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+    min-height: 300px;
+}
+
+
+/*Career Page*/
 /*OPAC Page*/
 .search-bar-content {
   background: #FFCDB2;
