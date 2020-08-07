@@ -124,7 +124,7 @@ p{
   background-size: cover;
 }
 
-.carousel-caption button {
+.carousel-caption a{
   background: #D7BEA8;
   border-color: #D7BEA8;
   color: #744253;
@@ -427,7 +427,7 @@ h4.about-heading {
 }
 
 /*event*/
-/* Service Style 3 Css */
+/*resources*/
 a.access-btn {
   color: #fff;
   background: #D7BEA8;
@@ -522,7 +522,7 @@ a.border-btn:hover:before {
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
-.joinus-text h4 {
+#label-membership .joinus-text h4 {
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
@@ -538,7 +538,39 @@ a.border-btn:hover:before {
   font-family: "Lato", sans-serif;
 }
 
-.joinus-inner button {
+#label-careers .joinus-text h4 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  padding-bottom: 10px;
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #DCACB8;
+  padding: 25px 40px;
+  background: #DCACB8;
+  font-family: "Lato", sans-serif;
+}
+
+#label-sponsorship .joinus-text h4 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  padding-bottom: 10px;
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #D7BEA8;
+  padding: 25px 40px;
+  background: #D7BEA8;
+  font-family: "Lato", sans-serif;
+}
+
+.joinus-inner a{
   color: #222222;
   background: #ffb4a2;
   display: inline-block;
@@ -547,11 +579,7 @@ a.border-btn:hover:before {
   margin-top: 20px;
   font-weight: 500;
   border: 2px solid #222222;
-  -webkit-transition: .4s;
-  transition: .4s;
-  position: relative;
-  overflow: hidden;
-  z-index: 10*/
+
 }
 
 /*
@@ -563,9 +591,9 @@ a.border-btn:hover:before {
   position: absolute;
   width: 35px;
 }*/
-.joinus-inner button:hover {
+.joinus-inner a:hover {
   /*background: transparent none repeat scroll 0 0;*/
-  border: 2px solid #b49286;
+  border: 2px solid #222222;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
   background: #b49286;
   color: #ffffff;
@@ -647,20 +675,7 @@ a.border-btn:hover:before {
 
 /*-- //breadcrumbs --*/
 
-/*Career Page*/
-.career-page-banner {
-    background: url(../img/careers-head.jpg) no-repeat center;
-    background-size: cover;
-    min-height: 300px;
-}
 
-.page-layer {
-    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
-    min-height: 300px;
-}
-
-
-/*Career Page*/
 /*OPAC Page*/
 .search-bar-content {
   background: #FFCDB2;
@@ -699,6 +714,24 @@ border: 2px solid #222222;
 }
 
 /*//Opac Page*/
+/*Career Page*/
+.career-page-banner {
+    background: url(../img/careers-head.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.page-layer {
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+    min-height: 300px;
+}
+
+.careers-table thead{
+  background: #b49286;
+  padding: 20px 0px;
+}
+
+/*Career Page*/
 /*CONTACT US Page*/
 .contactus-form {
   padding: 20px 10px;
@@ -748,7 +781,7 @@ border: 2px solid #222222;
   font-size: 15px;
 }
 
-.contact-us-content th, td {
+.contact-us-content th, td{
  border-bottom: 1px solid   #E4C5B6;
 
 }
