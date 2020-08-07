@@ -28,10 +28,12 @@ a, a:focus, a:hover {
   text-decoration: none;
 }
 
+/*
 p{
   font-size: 16px;
   font-family: "Lato",sans-serif;
 }
+
 
 /*
 .row {
@@ -534,7 +536,7 @@ a.border-btn:hover:before {
   text-align: center;
   border: 1px solid #B5838D;
   padding: 25px 40px;
-  background: #B5838D;
+  background: #c782a6;
   font-family: "Lato", sans-serif;
 }
 
@@ -548,9 +550,9 @@ a.border-btn:hover:before {
   position: relative;
   text-transform: uppercase;
   text-align: center;
-  border: 1px solid #DCACB8;
+  border: 1px solid #a28089;
   padding: 25px 40px;
-  background: #DCACB8;
+  background: #C78283;
   font-family: "Lato", sans-serif;
 }
 
@@ -564,9 +566,9 @@ a.border-btn:hover:before {
   position: relative;
   text-transform: uppercase;
   text-align: center;
-  border: 1px solid #D7BEA8;
+  border: 1px solid  #b49286;
   padding: 25px 40px;
-  background: #D7BEA8;
+  background: #c7a482;
   font-family: "Lato", sans-serif;
 }
 
@@ -691,7 +693,7 @@ a.border-btn:hover:before {
   padding: 50px;
 }
 
-.search-bar-content .input-group button {
+.search-bar-content .input-group button{
   color: #222222;
   background: #ffb4a2;
   display: inline-block;
@@ -727,8 +729,28 @@ border: 2px solid #222222;
 }
 
 .careers-table thead{
-  background: #b49286;
+  background: #C78283;
   padding: 20px 0px;
+    font-size: 18px;
+    font-family: "Lato",sans-serif;
+}
+
+.careers-table thead tr{
+ color: #ffffff;
+ letter-spacing: 1px;
+}
+.careers-table td{
+ border-bottom: : 1px solid #eee;
+}
+
+.btnCareer{
+
+  color: #222222;
+  background: #D7BEA8;
+  display: inline-block;
+  border-radius: 5px;
+
+  border: 2px solid #222222;
 }
 
 /*Career Page*/
@@ -736,6 +758,7 @@ border: 2px solid #222222;
 .contactus-form {
   padding: 20px 10px;
   background: #b49286;
+
 }
 
 .contactus-form .form-control {
