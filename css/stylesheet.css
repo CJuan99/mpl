@@ -28,6 +28,9 @@ a, a:focus, a:hover {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
 /*
 p{
   font-size: 16px;
@@ -357,9 +360,10 @@ ul.headertop-text li span.fa {
 }
 
 .about p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   color: #555;
+  letter-spacing: 1px;
 }
 
 h4.about-heading {
@@ -372,7 +376,8 @@ h4.about-heading {
 /*event*/
 .colour-section {
   background: #f9f1ee;
-  padding-bottom: 80px;
+  padding: 30px 0px;
+  min-height: 550px;
 }
 
 .image-grid-cover {
@@ -584,15 +589,6 @@ a.border-btn:hover:before {
 
 }
 
-/*
-.our-services-text h4::before {
-  background: #fec400 none repeat scroll 0 0;
-  bottom: 0;
-  content: "";
-  height: 1px;
-  position: absolute;
-  width: 35px;
-}*/
 .joinus-inner a:hover {
   /*background: transparent none repeat scroll 0 0;*/
   border: 2px solid #222222;
@@ -725,7 +721,8 @@ border: 2px solid #222222;
 
 .page-layer {
     background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
-    min-height: 300px;
+    min-height: 335px;
+
 }
 
 .careers-table thead{
@@ -762,6 +759,61 @@ padding: 5px 15px;
 }
 
 /*Career Page*/
+/*sponsorship*/
+.sponsorship-page-banner {
+    background: url(../img/sponsorship-head.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.sponsorship p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #555;
+  letter-spacing: 1px;
+}
+.sponsorship a{
+  color: #222222;
+  background: #ffb4a2;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-top: 20px;
+  font-weight: 500;
+  border: 2px solid #222222;
+
+}
+
+.sponsorship a:hover {
+  /*background: transparent none repeat scroll 0 0;*/
+  border: 2px solid #222222;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  background: #b49286;
+  color: #ffffff;
+}
+.sponsor-logo{
+			left: 0;
+			top: 0;
+			position: relative;
+			overflow: hidden;
+			margin-top:50px;
+      padding: 25px 40px;
+
+		}
+		.sponsor-logo img{
+			-webkit-transition: 0.6s ease;
+  			transition: 0.6s ease;
+
+		}
+		.sponsor-logo img:hover{
+			-webkit-transform: scale(1.2);
+  			transform: scale(1.2);
+
+		}
+
+/*--//sponsorship*/
+
+
 /*CONTACT US Page*/
 .contactus-form {
   padding: 20px 10px;
@@ -844,6 +896,7 @@ float:left;
 }
 
 /*//CONTACT US Page*/
+
 /*footer*/
 #footer-title {
   font-size: 28px;
