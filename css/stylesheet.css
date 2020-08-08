@@ -14,10 +14,9 @@ section {
 }
 */
 hr {
-
   color: #E4C5B6;
-
 }
+
 ul {
   margin: 0;
   padding: 0;
@@ -31,6 +30,7 @@ a, a:focus, a:hover {
 img {
   width: 100%;
 }
+
 /*
 p{
   font-size: 16px;
@@ -129,7 +129,7 @@ p{
   background-size: cover;
 }
 
-.carousel-caption a{
+.carousel-caption a {
   background: #D7BEA8;
   border-color: #D7BEA8;
   color: #744253;
@@ -571,13 +571,13 @@ a.border-btn:hover:before {
   position: relative;
   text-transform: uppercase;
   text-align: center;
-  border: 1px solid  #b49286;
+  border: 1px solid #b49286;
   padding: 25px 40px;
   background: #c7a482;
   font-family: "Lato", sans-serif;
 }
 
-.joinus-inner a{
+.joinus-inner a {
   color: #222222;
   background: #ffb4a2;
   display: inline-block;
@@ -586,7 +586,6 @@ a.border-btn:hover:before {
   margin-top: 20px;
   font-weight: 500;
   border: 2px solid #222222;
-
 }
 
 .joinus-inner a:hover {
@@ -672,8 +671,53 @@ a.border-btn:hover:before {
 }
 
 /*-- //breadcrumbs --*/
+/*membership--*/
+.membership-inner {
+  /*  border: 2px solid #b49286;
+  transition: .3s;
+  padding: 25px 25px;
+  font-family: "Lato", sans-serif;
+  background: #b49286;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  border: 2px solid  #222222;*/
+  margin-left: 35px;
+  padding-right: 10px;
+  transition: .3s;
+  padding: 10px 25px;
+  /*  margin-top: 28px;*/
+  border-left: transparent;
+  border-right: transparent;
+}
 
+.membership-icon i {
+  font-size: 4em;
+  float: left;
+  margin-left: -25px;
+  margin-right: 32px;
+  color: #c78283;
+}
 
+.membership-text p {
+  padding-right: 5px;
+  overflow: hidden;
+  padding: 20px 0 25px;
+}
+.member-subscribe h4{
+    background: #c7a482;
+    color: #ffffff;
+}
+
+.member-subscribe #register{
+    background: #c782a6;
+    color: #ffffff;
+}
+
+.rules-list .list-group li{
+  background:#E4C5B6;
+  color:  #222222;
+
+}
+/*membership--*/
 /*OPAC Page*/
 .search-bar-content {
   background: #D7BEA8;
@@ -689,7 +733,7 @@ a.border-btn:hover:before {
   padding: 50px;
 }
 
-.search-bar-content .input-group button{
+.search-bar-content .input-group button {
   color: #222222;
   background: #ffb4a2;
   display: inline-block;
@@ -698,15 +742,16 @@ a.border-btn:hover:before {
   border: 2px solid #222222;
 }
 
-.search-bar-content input{
-border: 2px solid #222222;
+.search-bar-content input {
+  border: 2px solid #222222;
 }
-.search-bar-content .input-group .dropdown-menu{
+
+.search-bar-content .input-group .dropdown-menu {
   color: #222222;
   background: #ffb4a2;
 }
 
-.search-bar-content .input-group .dropdown-menu li:hover{
+.search-bar-content .input-group .dropdown-menu li:hover {
   color: #222222;
   background: #E6C8BF;
 }
@@ -714,64 +759,58 @@ border: 2px solid #222222;
 /*//Opac Page*/
 /*Career Page*/
 .career-page-banner {
-    background: url(../img/careers-head.jpg) no-repeat center;
-    background-size: cover;
-    min-height: 300px;
+  background: url(../img/careers-head.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 300px;
 }
 
 .page-layer {
-    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
-    min-height: 335px;
-
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+  min-height: 335px;
 }
 
-.careers-table thead{
-/*  background: #C78283;*/
+.careers-table thead {
+  /*  background: #C78283;*/
   padding: 20px 0px;
-    font-size: 18px;
-    font-family: "Lato",sans-serif;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
 }
 
-.careers-table thead tr{
- color: #ffffff;
- letter-spacing: 1px;
-}
-.careers-table td{
- border-bottom: : 1px solid #eee;
-
+.careers-table thead tr {
+  color: #ffffff;
+  letter-spacing: 1px;
 }
 
+.careers-table td {
+  border-bottom: : 1px solid #eee;
+}
 
-.btnCareer{
-
+.btnCareer {
   color: #ffffff;
   background: #D7BEA8;
   display: inline-block;
   border-radius: 5px;
-
-  border: 1px solid  #D7BEA8;
+  border: 1px solid #D7BEA8;
 }
 
-.btnCareer:hover{
-
+.btnCareer:hover {
   color: #744253;
-
 }
 
-.career-form input[type="submit"]{
+.career-form input[type="submit"] {
   background: #ffb4a2;
   display: inline-block;
   border-radius: 5px;
-padding: 5px 15px;
+  padding: 5px 15px;
   border: 2px solid #222222;
 }
 
 /*Career Page*/
 /*sponsorship*/
 .sponsorship-page-banner {
-    background: url(../img/sponsorship-head.jpg) no-repeat center;
-    background-size: cover;
-    min-height: 300px;
+  background: url(../img/sponsorship-head.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 300px;
 }
 
 .sponsorship p {
@@ -780,7 +819,8 @@ padding: 5px 15px;
   color: #555;
   letter-spacing: 1px;
 }
-.sponsorship a{
+
+.sponsorship a {
   color: #222222;
   background: #ffb4a2;
   display: inline-block;
@@ -789,7 +829,6 @@ padding: 5px 15px;
   margin-top: 20px;
   font-weight: 500;
   border: 2px solid #222222;
-
 }
 
 .sponsorship a:hover {
@@ -799,34 +838,31 @@ padding: 5px 15px;
   background: #b49286;
   color: #ffffff;
 }
-.sponsor-logo{
-			left: 0;
-			top: 0;
-			position: relative;
-			overflow: hidden;
-			margin-top:50px;
-      padding: 25px 40px;
 
-		}
-		.sponsor-logo img{
-			-webkit-transition: 0.6s ease;
-  			transition: 0.6s ease;
+.sponsor-logo {
+  left: 0;
+  top: 0;
+  position: relative;
+  overflow: hidden;
+  margin-top: 50px;
+  padding: 25px 40px;
+}
 
-		}
-		.sponsor-logo img:hover{
-			-webkit-transform: scale(1.2);
-  			transform: scale(1.2);
+.sponsor-logo img {
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
 
-		}
+.sponsor-logo img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
 
 /*--//sponsorship*/
-
-
 /*CONTACT US Page*/
 .contactus-form {
   padding: 20px 10px;
   background: #b49286;
-
 }
 
 .contactus-form .form-control {
@@ -859,7 +895,6 @@ padding: 5px 15px;
 
 .contact-us-content h4 {
   color: #b49286;
-
 }
 
 .contact-us-text {
@@ -873,38 +908,36 @@ padding: 5px 15px;
   font-size: 15px;
 }
 
-.contact-us-content th, td{
- border-bottom: 1px solid   #E4C5B6;
-
+.contact-us-content th, td {
+  border-bottom: 1px solid #E4C5B6;
 }
 
-.contact-us-content span{
+.contact-us-content span {
   display: block;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   text-align: center;
-line-height: 3em;
+  line-height: 3em;
   background: #b49286;
-float:left;
+  float: left;
   color: #fff;
-  	font-size: 1em;
-
+  font-size: 1em;
 }
 
-.w3layouts_mail_grid_left2 h3{
-	font-size: 1.1em;
-    color: #212121;
-    margin: .3em 0 0;
+.w3layouts_mail_grid_left2 h3 {
+  font-size: 1.1em;
+  color: #212121;
+  margin: .3em 0 0;
 }
-.w3layouts_mail_grid_left2 a{
-	text-decoration:none;
-	color:#999;
-	font-size:14px;
+
+.w3layouts_mail_grid_left2 a {
+  text-decoration: none;
+  color: #999;
+  font-size: 14px;
 }
 
 /*//CONTACT US Page*/
-
 /*footer*/
 #footer-title {
   font-size: 28px;
