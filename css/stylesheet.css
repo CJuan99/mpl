@@ -726,7 +726,7 @@ border: 2px solid #222222;
 }
 
 .careers-table thead{
-  background: #C78283;
+/*  background: #C78283;*/
   padding: 20px 0px;
     font-size: 18px;
     font-family: "Lato",sans-serif;
@@ -738,16 +738,24 @@ border: 2px solid #222222;
 }
 .careers-table td{
  border-bottom: : 1px solid #eee;
+
 }
+
 
 .btnCareer{
 
-  color: #222222;
+  color: #ffffff;
   background: #D7BEA8;
   display: inline-block;
   border-radius: 5px;
 
-  border: 2px solid #222222;
+  border: 1px solid  #D7BEA8;
+}
+
+.btnCareer:hover{
+
+  color: #744253;
+
 }
 
 .career-form input[type="submit"]{
