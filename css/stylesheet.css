@@ -799,6 +799,7 @@ padding: 5px 15px;
 
 .contact-us-content h4 {
   color: #b49286;
+
 }
 
 .contact-us-text {
@@ -815,6 +816,31 @@ padding: 5px 15px;
 .contact-us-content th, td{
  border-bottom: 1px solid   #E4C5B6;
 
+}
+
+.contact-us-content span{
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+line-height: 3em;
+  background: #b49286;
+float:left;
+  color: #fff;
+  	font-size: 1em;
+
+}
+
+.w3layouts_mail_grid_left2 h3{
+	font-size: 1.1em;
+    color: #212121;
+    margin: .3em 0 0;
+}
+.w3layouts_mail_grid_left2 a{
+	text-decoration:none;
+	color:#999;
+	font-size:14px;
 }
 
 /*//CONTACT US Page*/
