@@ -20,7 +20,7 @@ hr {
 ul {
   margin: 0;
   padding: 0;
-  list-style-type: none;
+  list-style-type:none;
 }
 
 a, a:focus, a:hover {
@@ -849,7 +849,7 @@ margin: 0;
   letter-spacing: 1px;
 }
 
-.sponsorship a {
+.learn-more-btn a {
   color: #222222;
   background: #ffb4a2;
   display: inline-block;
