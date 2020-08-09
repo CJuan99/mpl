@@ -692,7 +692,7 @@ margin: 0;
 /*ebook*/
 .book-resources .card{
   border: 1px solid #ddd;
-  
+
   margin-bottom: 20px;
 
 
@@ -749,8 +749,8 @@ margin: 0;
   background: #D7BEA8;
   border-color: #D7BEA8;
   color: #744253;
-  padding: 50px;
-  margin-bottom: 60px;
+  padding: 20px;
+/*  margin-bottom: 60px;*/
   height: auto;
 }
 
@@ -782,6 +782,9 @@ margin: 0;
   background: #E6C8BF;
 }
 
+.input-group-prepend select{
+  border: 1px solid #222222;
+}
 /*//Opac Page*/
 /*Career Page*/
 .career-page-banner {
