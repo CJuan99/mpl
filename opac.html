@@ -128,8 +128,13 @@
     </div>
   </nav>
   <!-- /navigation -->
+  <ul class="breadcrumb">
+  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item active">Opac</li>
+</ul>
 
-  <section class=" p-5" >
+<!--content-->
+  <section class=" p-5">
     <h2 class=" section-heading text-center pb-3 ">Online Public Access Catalog (Opac)</h2>
     <p class="lead justify px-5 py-4 ">Welcome to our library's online public access catalog. Search our catalog to view bibliography information on holdings we have in our library.</p>
     <div class="container">
@@ -142,8 +147,14 @@
                 <h4>Search Bibliography by Search Phrase:</h4>
               </div>
               <div class="input-group  px-3">
-                <div class="input-group-prepend">
-                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+             <div class="input-group-prepend">
+              <!--       <select id="search-by" name="search-by">
+                    <option value="title">Title</option>
+                    <option value="author">Author</option>
+                    <option value="isbn">ISBN</option>
+                    <option value="series">Series</option>
+                  </select>-->
+               <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
                   Search by
                 </button>
                 <ul class=" dropdown-menu">
@@ -154,10 +165,10 @@
                   <li class="dropdown-item" >ISBN</li>
                   <li class="dropdown-item" >Series</li>
                 </ul>
-              </div>
-                <input type="text" class="form-control form-control-lg border-dark py-4 " placeholder="Search"  name="searchbar">
+                </div>
+                <input type="text" class="form-control form-control-md " placeholder="Search" name="searchbar">
                 <div class="input-group-append">
-                  <button type="button" class="btn btn-lg  btn-outline-dark px-4" data-toggle="modal" data-target="#topupModal">
+                  <button type="button" class="btn btn-md px-4" data-toggle="modal" data-target="#topupModal">
                     <span class="fa fa-search"></span>
                   </button>
                 </div>
