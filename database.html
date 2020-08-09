@@ -129,38 +129,224 @@
   </nav>
   <!-- /navigation -->
   <ul class="breadcrumb">
-  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-  <li class="breadcrumb-item active">Online database</li>
-</ul>
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active">Online databases</li>
+  </ul>
 
-  <section class="mb-80 py-5">
+  <section class="colour-section  py-5">
     <div class="container ">
       <!--  <h2 class="section-heading text-center pb-3">Sponsors</h2>-->
       <div class="row">
         <div class="col-lg-3 col-md-12">
-          <div class="list-group database-sidebar ">
-            <h4>Resources</h4>
-            <a  href="database.html" class="list-group-item list-group-item-action">
+          <div class="list-group database-sidebar mb-5 list-group-flush">
+            <a href="resources.html" class="list-group-item list-group-item-action active list-group-item-secondary">
+              Resources
+            </a>
+            <a href="database.html" class="list-group-item list-group-item-action list-group-item-secondary">
               Online databases
             </a>
-            <a href="journals.html" class="list-group-item list-group-item-action">Online journals</a>
-            <a href="openaccess.html" class="list-group-item list-group-item-action">Open access resources</a>
-            <a href="ebook.html" class="list-group-item list-group-item-action">E-books</a>
-            <a href="multimedia.html" class="list-group-item list-group-item-action">Multimedia resources</a>
-            <a href="oldnewspapers.html" class="list-group-item list-group-item-action">Old e-newspapers</a>
+            <a href="journals.html" class="list-group-item list-group-item-action list-group-item-secondary ">Online journals</a>
+            <a href="openaccess.html" class="list-group-item list-group-item-action list-group-item-secondary">Open access resources</a>
+            <a href="ebook.html" class="list-group-item list-group-item-action list-group-item-secondary">E-books</a>
+            <a href="multimedia.html" class="list-group-item list-group-item-action list-group-item-secondary ">Multimedia resources</a>
+            <a href="oldnewspapers.html" class="list-group-item list-group-item-action list-group-item-secondary">Old e-newspapers</a>
           </div>
           <!-- List group -->
         </div>
-        <div class="col-lg-9 col-md-12 mb-5">
-    <input type="text" class="form-control form-control-lg border-dark py-4 " placeholder="Search"  name="searchbar">
+        <div class="col-lg-9 col-md-12 mb-5 data-left">
+          <h2>Online Databases</h2>
 
+          <div class="input-group mb-3">
+            <input type="text" class="form-control form-control-md border-dark" placeholder="Search" name="searchbar" id="searchInput" onkeyup="searchFunction()">
+            <div class="input-group-append">
+              <button type="button" class="btn btn-md px-4 search-btn">
+                <span class="fa fa-search"></span>
+            </div>
+          </div>
+          <div class="alphabet-bar mb-3">
+            <div class="row">
+              <div class="col-12 col-sm-12 mb-3">
+                <button href="">Show All</button>
+                <button href="">A</button>
+                <button href="">B</button>
+                <button href="">C</button>
+                <button href="">D</button>
+                <button href="">E</button>
+                <button href="" disabled>F</button>
+                <button href="">G</button>
+                <button href="">H</button>
+                <button href="">I</button>
+                <button href="">J</button>
+                <button href="" disabled>K</button>
+                <button href="javascript:void(0)" disabled>L</button>
+                <button href="">M</button>
+                <button href="">N</button>
+                <button href="">O</button>
+                <button href="">P</button>
+                <button href="javascript:void(0)" disabled>Q</button>
+                <button href="javascript:void(0)" disabled>R</button>
+                <button href="">S</button>
+                <button href="">T</button>
+                <button href="">U</button>
+                <button href="">V</button>
+                <button href="">W</button>
+                <button href="javascript:void(0)" disabled>X</button>
+                <button href="javascript:void(0)" disabled>Y</button>
+                <button href="javascript:void(0)" disabled>Z</button>
+
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="res-content">
+            <div class="row">
+              <div class="col-xs-12 col-md-12">
+                <ul id="searchDatabases" class="resources-content">
+                  <ul>
+                    <h4>A</h4>
+                    <li><a href="https://academicjournals.org/search">Academic Journals</a></li>
+                    <li><a href="https://www.u-library.gov.my/portal/web/guest/home">Alkem Digital Library (Access via u-Pustaka Portal)</a></li>
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>B</h4>
+                    <li><a href="https://www.u-library.gov.my/portal/web/guest/home">BLIS (Access via u-Pustaka Portal)</a></li>
+                    <li><a href="https://www.bartleby.com/">Bartleby.com</a></li>
+                    <li><a href="http://www.bl.uk/blogs">British Library Blogs</a></li>
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>C</h4>
+                    <li><a href="http://cds.cern.ch/">CERN Document Server</a></li>
+                    <li><a href="http://citeseerx.ist.psu.edu/index;jsessionid=6C6E632174E57F3A97284E672206C028">CiteSeerX</a></li>
+                    <li><a href="https://repository.lib.cuhk.edu.hk/en/collection/etd">CUHK Electronic Theses & Dissertations Collection </a></li>
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>D</h4>
+                    <li><a href="http://www.dart-europe.eu/basic-search.php">Dart-Europe E-theses Portal</a></li>
+                    <li><a href="http://network.bepress.com/">Digital Commons Network</a></li>
+                    <li><a href="https://www.doabooks.org/doab?func=search&uiLanguage=en">DOAB: Directory of Open Access Books </a></li>
+                    <li><a href="https://doaj.org/">DOAJ Directory of Open Access Journals </a></li>
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>E</h4>
+                    <li><a href="https://eric.ed.gov/">ERIC Education Resources Information Center</a></li>
+                    <li><a href="https://ethos.bl.uk/About.do">EThOS Electronic Theses Online Service</a></li>
+                    <li><a href="https://englishrep.wordpress.com/">English Repository</a></li>
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>G</h4>
+                    <li><a href="https://books.google.com/">Google Books Search</a></li>
+                    <li><a href="https://scholar.google.com.my/">Google Scholar</a></li>
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>H</h4>
+                    <li><a href="http://hub.hku.hk/advanced-search?field1=title&thesis=1">Hong Kong University Theses Online</a></li>
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>I</h4>
+                    <li><a href="https://ideas.repec.org/1">IDEAS - Economics and Finance Research</a></li>
+                    <li><a href="https://archive.org/">Internet Archive</a></li>
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>J</h4>
+                    <li><a href="https://irdb.nii.ac.jp/en">JAIRO</a></li>
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>M</h4>
+                    <li><a href="http://www.magportal.com/">MagPortal</a></li>
+                    <li><a href="http://myto.upm.edu.my/find/">MyTO: Malaysian Thesis Online</a></li>
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>N</h4>
+                    <li><a href="https://eresources.nlb.gov.sg/newspapers/">NewspaperSG - NLB</a></li>
+
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>O</h4>
+                    <li><a href="https://www.u-library.gov.my/portal/web/guest/home">Overdrive (Access Via u-Pustaka Portal)</a></li>
+                    <li><a href="https://oaister.worldcat.org/">OAIster</a></li>
+                    <li><a href="http://www.kkhsou.in/library/oajse/">OAJSE Open Access Journals Search Engine</a></li>
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>P</h4>
+                    <li><a href="https://pqdtopen.proquest.com/search.html?fbclid=IwAR2J7O1mFJw0v5D-xG0difpiIlPUXy1BO83E1Txxzi7JtzBich1y3FwLpqA">PQTD Open</a></li>
+                    <li><a href="https://www.journalism.org/">Pew Research Journalism Project</a></li>
+                    <li><a href="https://pnm.elib.com.my/">Perpustakaan Negara Malaysia</a></li>
+                    <li><a href="http://www.gutenberg.org/wiki/Main_Page">Project Gutenberg</a></li>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></li>
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>S</h4>
+                    <li><a href="https://scholarbank.nus.edu.sg/">ScholarBank@NUS (Electronic Theses & Dissertations)</a></li>
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>T</h4>
+                    <li><a href="http://www.teachingenglish.org.uk/">Teaching English</a></li>
+                    <li><a href="http://www.digital.library.upenn.edu/books/">The Online Books Page</a></li>
+                    <li><a href="https://www.tmrjournals.com/tmrde/EN/article/advSearchArticle.do">Traditional Medicine Research Data Expanded (TMRDE)</a></li>
+                    <li><a href="https://trove.nla.gov.au/newspaper/">Trove - National Library of Australia</a></li>
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>U</h4>
+                    <li><a href="https://www.u-library.gov.my/portal/web/guest/home">u-Pustaka Portal</a></li>
+                    <li><a href="http://patft.uspto.gov/">United States Patent and Trade Office Database</a></li>
+
+                  </ul>
+                  <hr>
+                  <ul>
+                    <h4>W</h4>
+                    <li><a href="https://www.wga.hu/">Web Gallery of Art</a></li>
+                  </ul>
+                  <hr>
+                </ul>
+              </div>
+            </div>
 
           </div>
 
+        </div>
       </div>
-    </div>
   </section>
+  <script>
+    function searchFunction() {
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById("searchInput");
+      h4=document.body.children;
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("searchDatabases");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue[0].toUpperCase().indexOf(filter) > -1) {
 
+          li[i].style.display = "";
+        /*  h4.style.display="";*/
+
+
+        } else {
+          li[i].style.display = "none";
+
+        }
+      }
+    }
+  </script>
 
   <!--footer-->
   <footer id="dk-footer" class="dk-footer">
