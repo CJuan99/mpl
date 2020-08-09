@@ -697,6 +697,15 @@ margin: 0;
 
 
 }
+/*//ebbok*/
+/*cultural*/
+.culture-page-banner {
+  background: url(../img/cultural.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 300px;
+}
+
+
 /*membership--*/
 .membership-inner {
   /*  border: 2px solid #b49286;
@@ -835,6 +844,13 @@ margin: 0;
 }
 
 /*Career Page*/
+.top-indicator {
+    right: 0;
+    top: 1rem;
+    bottom: inherit;
+    left: inherit;
+    margin-right: 1rem;
+}
 /*sponsorship*/
 .sponsorship-page-banner {
   background: url(../img/sponsorship-head.jpg) no-repeat center;
@@ -850,6 +866,17 @@ margin: 0;
 }
 
 .learn-more-btn a {
+  color: #222222;
+  background: #ffb4a2;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-top: 20px;
+  font-weight: 500;
+  border: 2px solid #222222;
+}
+
+.learn-more-btn button{
   color: #222222;
   background: #ffb4a2;
   display: inline-block;
