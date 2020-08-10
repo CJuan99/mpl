@@ -714,10 +714,10 @@ margin: 0;
 }
 
 /*exhibitions*/
-.exhibitions .card-body{
-background: #BBDEFB;
- border: 1px solid #448AFF;
- padding:0;
+.exhibitions .date{
+background: #ffb4a2;
+ border: 1px solid #222222;
+ padding: 10px 0px;
  margin:0;
  height:86px;
 }
