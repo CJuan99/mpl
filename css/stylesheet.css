@@ -359,12 +359,15 @@ ul.headertop-text li span.fa {
   margin-left: -30px;
 }
 
-.about p {
+.content-p {
   font-size: 16px;
   font-weight: normal;
   color: #555;
   letter-spacing: 1px;
+  margin-bottom: 20px;
 }
+
+
 
 h4.about-heading {
   font-size: 25px;
@@ -703,6 +706,7 @@ margin: 0;
   background: url(../img/cultural.jpg) no-repeat center;
   background-size: cover;
   min-height: 300px;
+   background-attachment: fixed;
 }
 
 .top-indicator {
@@ -783,8 +787,17 @@ background: #ffb4a2;
 
 
 /*award*/
+/*reading*/
 .reading-form{
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),url(../img/sponsorship-head.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 300px;
+ background-attachment: fixed;
+
+}
+/*reading*/
+.talks-page-banner{
+  background: url(../img/slide3.jpg) no-repeat center;
   background-size: cover;
   min-height: 300px;
  background-attachment: fixed;
@@ -887,6 +900,7 @@ background: #ffb4a2;
   background: url(../img/careers-head.jpg) no-repeat center;
   background-size: cover;
   min-height: 300px;
+   background-attachment: fixed;
 }
 
 .page-layer {
@@ -937,6 +951,7 @@ background: #ffb4a2;
   background: url(../img/sponsorship-head.jpg) no-repeat center;
   background-size: cover;
   min-height: 300px;
+   background-attachment: fixed;
 }
 
 .sponsorship p {
