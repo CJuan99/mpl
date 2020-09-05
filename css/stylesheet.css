@@ -18,10 +18,18 @@ img {
   width: 100%;
 }
 
+.navbar-brand{
+  font-size: 25px;
+  padding-left: 20px;
+}
 #mainNav {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background: #744253;
+  /*   background: linear-gradient( #fb5c63, #93291E);*/
+  /*  background: linear-gradient( #EB3349, #F45C43);*/
+  /*background: linear-gradient( #e4443f,#c5211c);*/
+  /*  background: linear-gradient( #e52d27, #b31217);*/
+  background: linear-gradient(#EB3349, #791207);
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
 }
@@ -36,9 +44,11 @@ img {
   display: block;
   width: 0px;
   height: 2px;
-  background: #D7BEA8;
+  /*background: #D7BEA8;*/
+  background: #f3c374;
   transition: 0.2s;
 }
+
 
 #mainNav ul li {
   display: inline-block;
@@ -49,24 +59,30 @@ img {
 }
 
 #mainNav .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link, .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-  color: #fec400;
+  color: #f3c374;
 }
 
 #mainNav .nav-link {
-  padding: 10px 5px;
+  padding: 5px 5px;
   transition: 0.2s;
 }
 
 #mainNav .dropdown-item.active, #mainNav .dropdown-item:active {
-  color: #D7BEA8;
+  color: #212121;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
-  background: #D7BEA8;
+  /*background: #D7BEA8;*/
+  /*  background: linear-gradient(-90deg, #f59B65,  #F7BA79);*/
+  background: #f3c374;
 }
 
 .dropdown-menu {
-  background: #744253;
+  /*  background: #C5211C;*/
+  background: #791207;
+  border: #791207;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  padding: 0;
 }
 
 .dropdown-menu a {
@@ -91,15 +107,28 @@ img {
 }
 
 .carousel-caption a {
-  background: #D7BEA8;
+  /*background: #D7BEA8;
   border-color: #D7BEA8;
-  color: #744253;
+  color: #744253;*/
+  background-color: #FFCDB2;
+  border-color: #FFCDB2;
+  color: #222222;
+}
+
+.carousel-caption a:hover {
+  /*background: #D7BEA8;
+  border-color: #D7BEA8;
+  color: #744253;*/
+  background-color: #FFCDB2;
+  border-color: #FFCDB2;
+  color: #791207;
 }
 
 /*headertop*/
 .header-top {
   padding: 0.5em 0;
-  background: #b49286;
+  /*background: #b49286;*/
+  background-color: #93291E;
 }
 
 .headertop-text {
@@ -155,14 +184,16 @@ ul.headertop-text li span.fa {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  background: #744253;
-  border-color: #744253;
+  /*background: #744253;
+  border-color: #744253;*/
+  background: #bc7839;
 }
 
 .lang-text:hover {
   color: #ffffff;
-  background: #D7BEA8;
-  border-color: #E6C8BF;
+  /*  background: #D7BEA8;
+  border-color: #E6C8BF;*/
+  background: #f3c374;
 }
 
 /*--headertop*/
@@ -176,14 +207,16 @@ ul.headertop-text li span.fa {
   font-weight: 700;
   font-family: 'KaiTi';
   font-weight: 700;
-  color: #744253;
+  /*color: #744253;*/
+  color: #bc7839;
 }
 
 .logoname {
   font-size: 30px;
   font-weight: 700;
   font-family: 'Cinzel', sans-serif;
-  color: #744253;
+  /*color: #744253;*/
+  color: #bc7839;
 }
 
 .logoname a {
@@ -193,7 +226,7 @@ ul.headertop-text li span.fa {
 /*about*/
 .section-heading {
   font-size: 40px;
-  color: #b49286;
+  /*  color: #b49286;*/
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -212,7 +245,8 @@ ul.headertop-text li span.fa {
   content: "";
   width: 80px;
   height: 3px;
-  background-color: #744253;
+  /*background-color: #744253;*/
+  background-color: #eea849;
   bottom: 0;
   left: 50%;
   margin-left: -40px;
@@ -223,7 +257,8 @@ ul.headertop-text li span.fa {
   content: "";
   width: 60px;
   height: 3px;
-  background-color: #744253;
+  /*background-color: #744253;*/
+  background-color: #eea849;
   left: 50%;
   bottom: -10px;
   margin-left: -30px;
@@ -285,11 +320,11 @@ h4.about-heading {
 }
 
 .cover-wrapper:hover {
-  color: #744253;
-  background: #D7BEA8;
-  /*background: #C6B3AE;
-/*
-  border-color: #E6C8BF;*/
+  /*color: #744253;
+  background: #D7BEA8;*/
+  /*background-image: linear-gradient(-90deg,#FF5F6D, #FFC371);*/
+  background: #FFC371;
+  color: #000000;
 }
 
 .image-grid-clickbox a {
@@ -307,8 +342,10 @@ h4.about-heading {
 /*event*/
 /*resources*/
 a.access-btn {
-  color: #fff;
-  background: #D7BEA8;
+  /*color: #fff;
+  background: #D7BEA8;*/
+  color: #222222;
+  background: #FFCDB2;
   display: inline-block;
   padding: 10px 30px;
   border-radius: 3px;
@@ -322,7 +359,8 @@ a.access-btn {
 }
 
 a.access-btn:hover {
-  color: #744253;
+  /*color: #744253;*/
+  color: #791207;
 }
 
 .res-service h3 {
@@ -349,18 +387,23 @@ a.access-btn:hover {
   height: 60px;
   font-size: 30px;
   line-height: 60px;
-  border: 1px solid #b49286;
   margin-bottom: 30px;
   border-radius: 50%;
-  color: #b49286;
+  /*  border: 1px solid #b49286;
+  color: #b49286;*/
   -webkit-transition: .4s;
   transition: .4s;
+  color:
+    #bc7839;
+  border: 1px solid #bc7839;
 }
 
 .resources .res-service:hover i {
-  background-color: #D7BEA8;
-  color: #744253;
-  border-color: #D7BEA8;
+  /*
+  color: #744253;*/
+  background-color: #FFCDB2;
+  border-color: #FFCDB2;
+  color: #791207;
 }
 
 .resources .res-service:hover {
@@ -388,9 +431,9 @@ a.access-btn:hover {
   position: relative;
   text-transform: uppercase;
   text-align: center;
-  border: 1px solid #B5838D;
+  border: 1px solid #EB3349;
   padding: 25px 40px;
-  background: #c782a6;
+  background: #EB3349;
   font-family: "Lato", sans-serif;
 }
 
@@ -404,9 +447,9 @@ a.access-btn:hover {
   position: relative;
   text-transform: uppercase;
   text-align: center;
-  border: 1px solid #a28089;
+  border: 1px solid#f5af19;
   padding: 25px 40px;
-  background: #C78283;
+  background: #f5af19;
   font-family: "Lato", sans-serif;
 }
 
@@ -420,9 +463,10 @@ a.access-btn:hover {
   position: relative;
   text-transform: uppercase;
   text-align: center;
-  border: 1px solid #b49286;
+  border: 1px solid #bc7839;
   padding: 25px 40px;
-  background: #c7a482;
+  background:
+    #bc7839;
   font-family: "Lato", sans-serif;
 }
 
@@ -441,8 +485,14 @@ a.access-btn:hover {
   /*background: transparent none repeat scroll 0 0;*/
   border: 2px solid #222222;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
-  background: #b49286;
+  /*background: #b49286;*/
+  background: #791207;
   color: #ffffff;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-top: 20px;
+  font-weight: 500;
 }
 
 .joinus-text p {
@@ -469,11 +519,14 @@ a.access-btn:hover {
 }
 
 .breadcrumb-item a {
-  color: #744253;
+  /*  color: #744253;*/
+  color: #791207;
 }
 
 .breadcrumb-item a:hover {
-  color: #D7BEA8;
+  /*color: #D7BEA8;*/
+  color:
+    #bc7839;
 }
 
 /*-- //breadcrumbs --*/
@@ -544,13 +597,27 @@ a.access-btn:hover {
 
 /*//ebbok*/
 /*cultural*/
-.culture-page-banner {
+
+
+#cultural{
   background: url(../img/cultural.jpg) no-repeat center;
   background-size: cover;
   min-height: 300px;
   background-attachment: fixed;
 }
 
+#exhibition{
+  background: url(../img/exhibition.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 300px;
+  background-attachment: fixed;
+}
+#reading{
+  background: url(../img/read.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 300px;
+  background-attachment: fixed;
+}
 .top-indicator {
   right: 0;
   top: 1rem;
@@ -622,7 +689,6 @@ a.access-btn:hover {
 
 /*membership--*/
 .membership-inner {
-  
   margin-left: 35px;
   padding-right: 10px;
   transition: .3s;
@@ -637,7 +703,9 @@ a.access-btn:hover {
   float: left;
   margin-left: -25px;
   margin-right: 32px;
-  color: #c78283;
+  /*color: #c78283;*/
+  color:
+#bc7839;
 }
 
 .membership-text p {
@@ -647,12 +715,14 @@ a.access-btn:hover {
 }
 
 .member-subscribe h4 {
-  background: #c7a482;
+/*  background: #c7a482;*/
+  background: #F27121;
   color: #ffffff;
 }
 
 .member-subscribe #register {
-  background: #c782a6;
+  /*background: #c782a6;*/
+  background: #8A2387;
   color: #ffffff;
 }
 
@@ -736,10 +806,12 @@ a.access-btn:hover {
 
 .btnCareer {
   color: #ffffff;
-  background: #D7BEA8;
+
   display: inline-block;
   border-radius: 5px;
-  border: 1px solid #D7BEA8;
+  /*background: #D7BEA8;
+  border: 1px solid #D7BEA8;*/
+  background: #f5af19;
 }
 
 .btnCareer:hover {
@@ -796,7 +868,8 @@ a.access-btn:hover {
   /*background: transparent none repeat scroll 0 0;*/
   border: 2px solid #222222;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
-  background: #b49286;
+  /*background: #b49286;*/
+  background:  #791207;
   color: #ffffff;
 }
 
@@ -886,18 +959,6 @@ a.access-btn:hover {
   font-size: 1em;
 }
 
-.w3layouts_mail_grid_left2 h3 {
-  font-size: 1.1em;
-  color: #212121;
-  margin: .3em 0 0;
-}
-
-.w3layouts_mail_grid_left2 a {
-  text-decoration: none;
-  color: #999;
-  font-size: 14px;
-}
-
 /*//CONTACT US Page*/
 /*footer*/
 #footer-title {
@@ -905,20 +966,23 @@ a.access-btn:hover {
   font-family: 'Cinzel';
   padding-bottom: 20px;
   font-weight: 700;
-  color: #E6C8BF;
+  color:#E6C8BF;
 }
 
 .animate-border {
   position: relative;
   display: block;
-  width: 150px;
+  width: 200px;
   height: 3px;
-  background: #aeaeae;
+  background: #f3c374;
 }
 
 .dk-footer {
   padding: 50px 0 0 0;
-  background-color: #744253;
+  /*background-color: #744253;
+    background: linear-gradient(#e34333,#791207);
+    background: linear-gradient( #EB3349, #791207);*/
+  background: #791207;
   position: relative;
   z-index: 2;
 }
@@ -930,7 +994,7 @@ a.access-btn:hover {
 
 .dk-footer-box-info .ophour-icon i {
   font-size: 14px;
-  color: #D7BEA8;
+  color: #E6C8BF;
   /*color: #C6B3AE;*/
 }
 
@@ -959,6 +1023,8 @@ a.access-btn:hover {
 
 .footer-widget .footer-heading {
   margin-bottom: 35px;
+  letter-spacing: 3px;
+  color: #ffffff;
 }
 
 .footer-widget h3 {
@@ -966,7 +1032,8 @@ a.access-btn:hover {
   font-weight: 700;
   font-family: 'Lato', sans-serif;
   text-transform: capitalize;
-  color: #D7BEA8;
+/*  color: #D7BEA8;*/
+color: #fff ;
   position: relative;
   margin-bottom: 15px;
   max-width: -webkit-fit-content;
@@ -1029,8 +1096,8 @@ a.access-btn:hover {
 
 .back-to-top .btn-dark:hover {
   cursor: pointer;
-  background: #C6B3AE;
-  border-color: #C6B3AE;
+  background: #f3c374;
+  border-color: #f3c374;
 }
 
 /*-- responsive design --*/
