@@ -219,8 +219,8 @@ ul.headertop-text li span.fa {
 
 .logoname {
   font-size: 30px;
-  font-weight: 700;
-  font-family: 'Cinzel', sans-serif;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
   /*color: #744253;*/
   color: #791207;
 }
@@ -1007,9 +1007,9 @@ color: #791207;
 /*footer*/
 #footer-title {
   font-size: 28px;
-  font-family: 'Cinzel';
+  font-family: 'Lato',sans-serif;
   padding-bottom: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
 }
 
