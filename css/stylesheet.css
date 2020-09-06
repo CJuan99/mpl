@@ -218,11 +218,12 @@ ul.headertop-text li span.fa {
 }
 
 .logoname {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   font-family: 'Lato', sans-serif;
   /*color: #744253;*/
   color: #791207;
+  text-transform: uppercase;
 }
 
 .logoname a {
@@ -1006,11 +1007,12 @@ color: #791207;
 /*//CONTACT US Page*/
 /*footer*/
 #footer-title {
-  font-size: 28px;
+  font-size: 25px;
   font-family: 'Lato',sans-serif;
   padding-bottom: 20px;
   font-weight: 400;
   color: #ffffff;
+text-transform: uppercase;
 }
 
 .animate-border {
