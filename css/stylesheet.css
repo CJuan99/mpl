@@ -85,6 +85,8 @@ img {
   border: #791207;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
   padding: 0;
+    border-radius: 0;
+      margin-top: 13px;
 }
 
 .dropdown-menu a {
@@ -241,6 +243,7 @@ ul.headertop-text li span.fa {
   position: relative;
   margin-bottom: 50px;
   color: #3d3c44;
+
 }
 
 .section-heading h2 {
@@ -254,7 +257,8 @@ ul.headertop-text li span.fa {
   width: 80px;
   height: 3px;
   /*background-color: #744253;*/
-  background-color: #F7BA79;
+  /*background-color: #F7BA79;*/
+  background-color: #e34333;
   bottom: 0;
   left: 50%;
   margin-left: -40px;
@@ -266,7 +270,7 @@ ul.headertop-text li span.fa {
   width: 60px;
   height: 3px;
   /*background-color: #744253;*/
-  background-color: #F7BA79;
+  background-color: #e34333;
   left: 50%;
   bottom: -10px;
   margin-left: -30px;
@@ -289,10 +293,13 @@ h4.about-heading {
 /*aboutus*/
 /*event*/
 .colour-section {
-  /*  background: #f9f1ee;*/
-  background: #f5f5f5;
+ background: #f9f1ee;
+    /* background: linear-gradient(-90deg, #bc7839, #f3c374);*/
   padding: 30px 0px;
   min-height: 550px;
+}
+.colour-section  h2{
+  color: #353c4e;
 }
 
 .image-grid-cover {
@@ -315,7 +322,7 @@ h4.about-heading {
   width: 100%;
   height: 100%;
   z-index: 20;
-  background: rgba(0, 0, 0, .45);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .cover-wrapper {
@@ -355,7 +362,7 @@ a.access-btn {
   /*color: #fff;
   background: #D7BEA8;*/
   color: #ffffff;
-  background: #791207;
+  background: #e34333;
   display: inline-block;
   padding: 10px 30px;
   border-radius: 3px;
@@ -405,15 +412,15 @@ a.access-btn:hover {
   color: #b49286;*/
   -webkit-transition: .4s;
   transition: .4s;
-  color: #791207;
-  border: 1px solid #791207;
+  color: #e34333;
+  border: 1px solid #e34333;
 }
 
 .resources .res-service:hover i {
   /*
   color: #744253;*/
-  background-color: #791207;
-  border-color: #791207;
+  background-color: #e34333;
+  border-color:#e34333;
   color: #f3c374;
 }
 
@@ -429,7 +436,8 @@ a.access-btn:hover {
   padding: 25px 25px;
   font-family: "Lato", sans-serif;
   /*  background: #3d3c44;*/
-  background: linear-gradient(-90deg, #f59B65, #F7BA79);
+  /*background: linear-gradient(-90deg, #f59B65, #F7BA79);*/
+  background: #f5f5f5;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -621,7 +629,7 @@ color: #791207;
 /*//ebbok*/
 /*cultural*/
 #cultural {
-  background: url(../img/cultural.jpg) no-repeat center;
+  background: url(../img/culture.jpg) no-repeat center;
   background-size: cover;
   min-height: 300px;
   background-attachment: fixed;
@@ -711,6 +719,13 @@ color: #791207;
 }
 
 /*membership--*/
+.membership-page-banner {
+  background: url(../img/sponsor.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 300px;
+
+}
+
 .membership-inner {
   margin-left: 35px;
   padding-right: 10px;
@@ -805,7 +820,7 @@ color: #791207;
 }
 
 .page-layer {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
   min-height: 335px;
 }
 
@@ -848,10 +863,10 @@ color: #791207;
 /*Career Page*/
 /*sponsorship*/
 .sponsorship-page-banner {
-  background: url(../img/sponsorship-head.jpg) no-repeat center;
+  background: url(../img/sponsor.jpg) no-repeat center;
   background-size: cover;
   min-height: 300px;
-  background-attachment: fixed;
+
 }
 
 .sponsorship p {
