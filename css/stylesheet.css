@@ -183,7 +183,7 @@ ul.headertop-text li span.fa {
   font-size: .8rem;
   letter-spacing: 1px;
   color: #eee;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   display: block;
   width: 50px;
   height: 20px;
@@ -222,7 +222,7 @@ ul.headertop-text li span.fa {
 .logoname {
   font-size: 25px;
   font-weight: 400;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   /*color: #744253;*/
   color: #791207;
   text-transform: uppercase;
@@ -348,7 +348,7 @@ h4.about-heading {
   font-weight: bold;
   font-size: 20px;
   transition: all 500ms;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
 .image-grid-clickbox a:hover {
@@ -434,7 +434,7 @@ a.access-btn:hover {
   /*border: 2px solid  #3d3c44;*/
   transition: .3s;
   padding: 25px 25px;
-  font-family: "Lato", sans-serif;
+  font-family: "Helvetica", sans-serif;
   /*  background: #3d3c44;*/
   /*background: linear-gradient(-90deg, #f59B65, #F7BA79);*/
   background: #f5f5f5;
@@ -455,7 +455,7 @@ a.access-btn:hover {
   padding: 25px 40px;
   background: #3d3c44;
   border: 2px solid #3d3c44;
-  font-family: "Lato", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
 #label-careers .joinus-text h4 {
@@ -471,7 +471,7 @@ a.access-btn:hover {
   border: 1px solid #3d3c44;
   padding: 25px 40px;
   background: #3d3c44;
-  font-family: "Lato", sans-serif;
+  font-family: "Helvetica", sans-serif;
   border: 2px solid #3d3c44;
 }
 
@@ -488,7 +488,7 @@ a.access-btn:hover {
   border: 1px solid #3d3c44;
   padding: 25px 40px;
   background: #3d3c44;
-  font-family: "Lato", sans-serif;
+  font-family: "Helvetica", sans-serif;
   border: 2px solid #3d3c44;
 }
 
@@ -828,7 +828,7 @@ color: #791207;
   /*  background: #C78283;*/
   padding: 20px 0px;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: #ffffff;
 }
 
@@ -991,7 +991,7 @@ color: #791207;
 
 .contact-us-text {
   border: 2px solid #e34333;
-  font-family: "Merriweather", sans-serif;
+  font-family: "Helvetica", sans-serif;
   /*  background: #FFCDB2;*/
   background: #e34333;
   padding: 0px 30px;
@@ -1023,7 +1023,7 @@ color: #791207;
 /*footer*/
 #footer-title {
   font-size: 25px;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Helvetica',sans-serif;
   padding-bottom: 20px;
   font-weight: 400;
   color: #ffffff;
@@ -1091,7 +1091,7 @@ text-transform: uppercase;
 .footer-widget h3 {
   font-size: 24px;
   font-weight: 700;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   text-transform: capitalize;
   /*  color: #D7BEA8;*/
   color: #fff;
